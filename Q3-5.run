@@ -1,0 +1,7 @@
+reset;
+model Q3-5.mod;
+data Q3-5.dat;
+option solver cplex;
+solve;
+display x;
+display Cost;
