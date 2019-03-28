@@ -1,0 +1,7 @@
+reset;
+model HW4-Q3-b3.mod;
+data HW4-Q3-a.dat;
+option solver cplex;
+solve;
+display x;
+display Cost;
